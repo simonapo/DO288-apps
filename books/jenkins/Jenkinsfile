@@ -14,7 +14,7 @@ pipeline {
         DEV_PROJECT = "sposca-book-dev"
         STAGE_PROJECT = "sposca-book-stage"
         APP_GIT_URL = "https://github.com/simonapo/DO288-apps"
-        NEXUS_SERVER = "${RHT_OCP4_NEXUS_SERVER}"
+        NEXUS_SERVER = "nexus-common.apps.ocp-na2.prod.nextcle.com"
 
         // DO NOT CHANGE THE GLOBAL VARS BELOW THIS LINE
         APP_NAME = "books"
